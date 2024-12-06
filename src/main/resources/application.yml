@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    vault:
+      enabled: false
+
+  jpa:
+    show-sql: true
+
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
+
+tenor:
+  url: https://tenor.googleapis.com
+  key: insert-your-key
